@@ -1,0 +1,140 @@
+{
+  "token": "D__khSpfb3MO6Cg6",
+  "chat_id": "6267031612",
+  "video_link": "https://mega.nz/file/y9RElKiB#kHQimH4zXbuq0aCCgiBvU8vbgvnwD1CG8AYU1-Mghgw",
+  "queue_job_id": "28",
+  "created_at": 1779124269.526458,
+  "updated_at": 1779124310.2012084,
+  "stage_key": "processing",
+  "stage_label": "Face Swap Processing",
+  "stage_num": 3,
+  "stage_total": 6,
+  "phase": "faceswap",
+  "pct": 0,
+  "frames_done": 0,
+  "frames_total": 449,
+  "elapsed_s": 19,
+  "eta_s": 0,
+  "details": "Step 2/6",
+  "extra_info": "Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779124278.mp4",
+  "progress_text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/449\n\n⏱️ Elapsed: 0m 19s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779124278.mp4",
+  "messages": [
+    {
+      "ts": 1779124269.5428612,
+      "text": "🚦 *Queue Job Started*\n• Job ID: `#28`\n• Mode: *direct*\n• Pending after this: `0`",
+      "source": "notify",
+      "direction": "outgoing"
+    },
+    {
+      "ts": 1779124274.5671587,
+      "text": "⬇️ Downloading started",
+      "source": "notify",
+      "direction": "outgoing"
+    },
+    {
+      "ts": 1779124278.852289,
+      "text": "ℹ️ Target filename normalize ki gayi for stable processing:\n`3278172064293.mp4` → `3278172064293_031612_1779124278.mp4`",
+      "source": "notify",
+      "direction": "outgoing"
+    },
+    {
+      "ts": 1779124280.913621,
+      "text": "🧩 Extracting Frames started",
+      "source": "notify",
+      "direction": "outgoing"
+    },
+    {
+      "ts": 1779124305.9499648,
+      "text": "⚙️ Face Swap Processing started",
+      "source": "notify",
+      "direction": "outgoing"
+    },
+    {
+      "ts": 1779124310.2008245,
+      "text": "🔴 FaceFusion exited rc=`-15` — last output:\n```\nextracting: 449frame [00:01, 310.67frame/s]\nextracting: 449frame [00:01, 310.67frame/s]\nextracting: 449frame [00:01, 298.00frame/s]\nextracting: 449frame [00:01, 298.00frame/s]\n[FACEFUSION.IMAGE_TO_VIDEO] extracting frames succeeded\n[FACEFUSION.IMAGE_TO_VIDEO] extracting frames succeeded\nprocessing:   0%|          | 0/449 [00:00<?, ?frame/s]\nprocessing:   0%|          | 0/449 [00:00<?, ?frame/s]\nprocessing:   0%|          | 0/449 [00:00<?, ?frame/s, execution_providers=['cuda']][FACEFUSION.INFERENCE_MANAGER] loading model hyperswap_1a_256 succeeded in 0.66 seconds\nprocessing:   0%|          | 0/449 [00:00<?, ?frame/s, execution_providers=['cuda']][FACEFUSION.INFERENCE_MANAGER] loading model hyperswap_1a_256 succeeded in 0.66 seconds\n```",
+      "source": "notify",
+      "direction": "outgoing"
+    }
+  ],
+  "progress_history": [
+    {
+      "ts": 1779124274.5650165,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [1/6] Downloading\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Downloading\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/?\n\n⏱️ Elapsed: 0m 0s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: y9RElKiB#kHQimH4zXbuq0aCCgiBvU8vb..."
+    },
+    {
+      "ts": 1779124277.7900345,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [1/6] Downloading\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Downloading\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/?\n\n⏱️ Elapsed: 0m 4s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: y9RElKiB#kHQimH4zXbuq0aCCgiBvU8vb..."
+    },
+    {
+      "ts": 1779124279.8777773,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [1/6] Downloading\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Downloading\n\n█████████░ 99%\n\n🎞 Frames: 0/?\n\n⏱️ Elapsed: 0m 5s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779124278.mp4"
+    },
+    {
+      "ts": 1779124280.9103477,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [2/6] Extracting Frames\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Extracting Frames\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/448\n\n⏱️ Elapsed: 0m 0s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779124278.mp4"
+    },
+    {
+      "ts": 1779124290.026865,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [2/6] Extracting Frames\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Extracting Frames\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/?\n\n⏱️ Elapsed: 0m 16s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779124278.mp4"
+    },
+    {
+      "ts": 1779124290.5080671,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [2/6] Extracting Frames\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Extracting Frames\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/?\n\n⏱️ Elapsed: 0m 17s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779124278.mp4"
+    },
+    {
+      "ts": 1779124290.8771732,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [2/6] Extracting Frames\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Extracting Frames\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/448\n\n⏱️ Elapsed: 0m 1s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779124278.mp4"
+    },
+    {
+      "ts": 1779124292.7367868,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [2/6] Extracting Frames\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Extracting Frames\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/448\n\n⏱️ Elapsed: 0m 2s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779124278.mp4"
+    },
+    {
+      "ts": 1779124294.2560933,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [2/6] Extracting Frames\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Extracting Frames\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/448\n\n⏱️ Elapsed: 0m 4s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779124278.mp4"
+    },
+    {
+      "ts": 1779124295.6852648,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [2/6] Extracting Frames\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Extracting Frames\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/448\n\n⏱️ Elapsed: 0m 5s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779124278.mp4"
+    },
+    {
+      "ts": 1779124297.1218007,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [2/6] Extracting Frames\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Extracting Frames\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/448\n\n⏱️ Elapsed: 0m 7s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779124278.mp4"
+    },
+    {
+      "ts": 1779124298.543151,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [2/6] Extracting Frames\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Extracting Frames\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/448\n\n⏱️ Elapsed: 0m 8s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779124278.mp4"
+    },
+    {
+      "ts": 1779124299.9675465,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [2/6] Extracting Frames\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Extracting Frames\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/448\n\n⏱️ Elapsed: 0m 10s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779124278.mp4"
+    },
+    {
+      "ts": 1779124301.3878102,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [2/6] Extracting Frames\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Extracting Frames\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/448\n\n⏱️ Elapsed: 0m 11s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779124278.mp4"
+    },
+    {
+      "ts": 1779124302.8681672,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [2/6] Extracting Frames\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Extracting Frames\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/448\n\n⏱️ Elapsed: 0m 13s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779124278.mp4"
+    },
+    {
+      "ts": 1779124304.3765333,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [2/6] Extracting Frames\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Extracting Frames\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/448\n\n⏱️ Elapsed: 0m 14s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779124278.mp4"
+    },
+    {
+      "ts": 1779124305.944728,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/449\n\n⏱️ Elapsed: 0m 16s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779124278.mp4"
+    },
+    {
+      "ts": 1779124307.6512764,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/449\n\n⏱️ Elapsed: 0m 17s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779124278.mp4"
+    },
+    {
+      "ts": 1779124309.0740786,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/449\n\n⏱️ Elapsed: 0m 19s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779124278.mp4"
+    }
+  ],
+  "completed": false,
+  "success": null,
+  "result": {}
+}

@@ -1,0 +1,41 @@
+{
+  "timestamp": "2026-04-22T02:30:00Z",
+  "tests": {
+    "test1_image": {
+      "status": "PASS",
+      "target_media_kind": "image",
+      "stage_updates": [
+        "Downloading",
+        "Processing",
+        "Uploading",
+        "Output Link"
+      ],
+      "invalid_stages": [],
+      "output_file": "live_tests/retry_2026_04_22/TEST1_OUTPUT.jpg",
+      "input_file": "live_tests/retry_2026_04_22/TEST1_INPUT.jpg",
+      "image_diff_mean": 1.2266453674121405,
+      "face_swap_change_detected": true
+    },
+    "test2_video": {
+      "status": "PASS",
+      "target_media_kind": "video",
+      "stage_updates": [
+        "Downloading",
+        "Extracting Frames",
+        "Face Swap Processing",
+        "Merging Frames",
+        "Uploading",
+        "Output Link"
+      ],
+      "invalid_stages": [],
+      "output_file": "live_tests/retry_2026_04_22/TEST2_OUTPUT.mp4",
+      "input_file": "live_tests/retry_2026_04_22/TEST2_INPUT.mp4",
+      "video_frame_diff_mean": 1.7161534891010803,
+      "face_swap_change_detected": true
+    }
+  },
+  "autosleep": {
+    "evidence_file": "live_tests/retry_2026_04_22/AUTO_SLEEP_LOG.txt",
+    "countdown_120s_observed": false
+  }
+}

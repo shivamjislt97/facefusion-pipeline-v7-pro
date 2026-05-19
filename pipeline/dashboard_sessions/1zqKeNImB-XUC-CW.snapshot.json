@@ -1,0 +1,106 @@
+{
+  "token": "1zqKeNImB-XUC-CW",
+  "chat_id": "6267031612",
+  "video_link": "https://mega.nz/file/y9RElKiB#kHQimH4zXbuq0aCCgiBvU8vbgvnwD1CG8AYU1-Mghgw",
+  "queue_job_id": "30",
+  "created_at": 1779125868.8083625,
+  "updated_at": 1779125898.4482243,
+  "stage_key": "extracting",
+  "stage_label": "Extracting Frames",
+  "stage_num": 2,
+  "stage_total": 6,
+  "phase": "faceswap",
+  "pct": 0,
+  "frames_done": 0,
+  "frames_total": 448,
+  "elapsed_s": 10,
+  "eta_s": 0,
+  "details": "Step 2/6",
+  "extra_info": "Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779125876.mp4",
+  "progress_text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [2/6] Extracting Frames\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Extracting Frames\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/448\n\n⏱️ Elapsed: 0m 10s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779125876.mp4",
+  "messages": [
+    {
+      "ts": 1779125868.8274486,
+      "text": "🚦 *Queue Job Started*\n• Job ID: `#30`\n• Mode: *direct*\n• Pending after this: `0`",
+      "source": "notify",
+      "direction": "outgoing"
+    },
+    {
+      "ts": 1779125873.7417526,
+      "text": "⬇️ Downloading started",
+      "source": "notify",
+      "direction": "outgoing"
+    },
+    {
+      "ts": 1779125876.0331247,
+      "text": "ℹ️ Target filename normalize ki gayi for stable processing:\n`3278172064293.mp4` → `3278172064293_031612_1779125876.mp4`",
+      "source": "notify",
+      "direction": "outgoing"
+    },
+    {
+      "ts": 1779125878.3780744,
+      "text": "🧩 Extracting Frames started",
+      "source": "notify",
+      "direction": "outgoing"
+    },
+    {
+      "ts": 1779125898.4478576,
+      "text": "🔴 FaceFusion exited rc=`-15` — last output:\n```\n[FACEFUSION.DOWNLOAD] validating hash for gfpgan_1.4 succeeded\n[FACEFUSION.DOWNLOAD] validating hash for gfpgan_1.4 succeeded\n[FACEFUSION.DOWNLOAD] validating source for gfpgan_1.4 succeeded\n[FACEFUSION.DOWNLOAD] validating source for gfpgan_1.4 succeeded\n[FACEFUSION.INFERENCE_MANAGER] loading model yoloface_8n succeeded in 0.53 seconds\n[FACEFUSION.INFERENCE_MANAGER] loading model yoloface_8n succeeded in 0.53 seconds\n[FACEFUSION.INFERENCE_MANAGER] loading model fan_68_5 succeeded in 0.01 seconds\n[FACEFUSION.INFERENCE_MANAGER] loading model fan_68_5 succeeded in 0.01 seconds\n[FACEFUSION.INFERENCE_MANAGER] loading model 2dfan4 succeeded in 0.31 seconds\n[FACEFUSION.INFERENCE_MANAGER] loading model 2dfan4 succeeded in 0.31 seconds\n```",
+      "source": "notify",
+      "direction": "outgoing"
+    }
+  ],
+  "progress_history": [
+    {
+      "ts": 1779125873.7378075,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [1/6] Downloading\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Downloading\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/?\n\n⏱️ Elapsed: 0m 0s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: y9RElKiB#kHQimH4zXbuq0aCCgiBvU8vb..."
+    },
+    {
+      "ts": 1779125877.0832372,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [1/6] Downloading\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Downloading\n\n█████████░ 99%\n\n🎞 Frames: 0/?\n\n⏱️ Elapsed: 0m 3s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779125876.mp4"
+    },
+    {
+      "ts": 1779125878.0156572,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [1/6] Downloading\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Downloading\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/?\n\n⏱️ Elapsed: 0m 4s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779125876.mp4"
+    },
+    {
+      "ts": 1779125878.3710828,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [2/6] Extracting Frames\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Extracting Frames\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/448\n\n⏱️ Elapsed: 0m 0s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779125876.mp4"
+    },
+    {
+      "ts": 1779125887.748902,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [2/6] Extracting Frames\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Extracting Frames\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/?\n\n⏱️ Elapsed: 0m 15s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779125876.mp4"
+    },
+    {
+      "ts": 1779125888.758811,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [2/6] Extracting Frames\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Extracting Frames\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/448\n\n⏱️ Elapsed: 0m 1s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779125876.mp4"
+    },
+    {
+      "ts": 1779125890.6402414,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [2/6] Extracting Frames\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Extracting Frames\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/448\n\n⏱️ Elapsed: 0m 2s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779125876.mp4"
+    },
+    {
+      "ts": 1779125892.1630852,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [2/6] Extracting Frames\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Extracting Frames\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/448\n\n⏱️ Elapsed: 0m 4s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779125876.mp4"
+    },
+    {
+      "ts": 1779125893.6390183,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [2/6] Extracting Frames\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Extracting Frames\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/448\n\n⏱️ Elapsed: 0m 6s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779125876.mp4"
+    },
+    {
+      "ts": 1779125895.0549858,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [2/6] Extracting Frames\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Extracting Frames\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/448\n\n⏱️ Elapsed: 0m 7s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779125876.mp4"
+    },
+    {
+      "ts": 1779125896.4949608,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [2/6] Extracting Frames\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Extracting Frames\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/448\n\n⏱️ Elapsed: 0m 9s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779125876.mp4"
+    },
+    {
+      "ts": 1779125897.9217064,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [2/6] Extracting Frames\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Extracting Frames\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/448\n\n⏱️ Elapsed: 0m 10s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779125876.mp4"
+    }
+  ],
+  "completed": false,
+  "success": null,
+  "result": {}
+}

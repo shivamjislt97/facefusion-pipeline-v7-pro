@@ -1,0 +1,544 @@
+{
+  "token": "5p5n0_vbMB4UaIjA",
+  "chat_id": "6267031612",
+  "video_link": "https://mega.nz/file/y9RElKiB#kHQimH4zXbuq0aCCgiBvU8vbgvnwD1CG8AYU1-Mghgw",
+  "queue_job_id": "31",
+  "created_at": 1779126728.4264972,
+  "updated_at": 1779126922.4645658,
+  "stage_key": "processing",
+  "stage_label": "Face Swap Processing",
+  "stage_num": 3,
+  "stage_total": 6,
+  "phase": "faceswap",
+  "pct": 57,
+  "frames_done": 259,
+  "frames_total": 449,
+  "elapsed_s": 173,
+  "eta_s": 130,
+  "details": "Step 2/6",
+  "extra_info": "Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4",
+  "progress_text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n█████░░░░░ 57%\n\n🎞 Frames: 259/449\n\n⏱️ Elapsed: 2m 53s\n\n⌛️ ETA: 2m 10s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4",
+  "messages": [
+    {
+      "ts": 1779126728.4551096,
+      "text": "🚦 *Queue Job Started*\n• Job ID: `#31`\n• Mode: *direct*\n• Pending after this: `0`",
+      "source": "notify",
+      "direction": "outgoing"
+    },
+    {
+      "ts": 1779126733.2566333,
+      "text": "⬇️ Downloading started",
+      "source": "notify",
+      "direction": "outgoing"
+    },
+    {
+      "ts": 1779126737.5417495,
+      "text": "ℹ️ Target filename normalize ki gayi for stable processing:\n`3278172064293.mp4` → `3278172064293_031612_1779126737.mp4`",
+      "source": "notify",
+      "direction": "outgoing"
+    },
+    {
+      "ts": 1779126739.4178452,
+      "text": "🧩 Extracting Frames started",
+      "source": "notify",
+      "direction": "outgoing"
+    },
+    {
+      "ts": 1779126766.625516,
+      "text": "⚙️ Face Swap Processing started",
+      "source": "notify",
+      "direction": "outgoing"
+    },
+    {
+      "ts": 1779126922.4633584,
+      "text": "🔴 FaceFusion exited rc=`-15` — last output:\n```\nprocessing:  57%|=====     | 258/449 [02:35<01:12,  2.64frame/s, execution_providers=['cuda']]\nprocessing:  57%|=====     | 258/449 [02:35<01:12,  2.64frame/s, execution_providers=['cuda']]\nprocessing:  58%|=====     | 259/449 [02:36<01:33,  2.04frame/s, execution_providers=['cuda']]\nprocessing:  58%|=====     | 259/449 [02:36<01:33,  2.04frame/s, execution_providers=['cuda']]\nprocessing:  58%|=====     | 260/449 [02:36<01:10,  2.67frame/s, execution_providers=['cuda']]\nprocessing:  58%|=====     | 260/449 [02:36<01:10,  2.67frame/s, execution_providers=['cuda']]\nprocessing:  58%|=====     | 261/449 [02:37<01:34,  1.98frame/s, execution_providers=['cuda']]\nprocessing:  58%|=====     | 261/449 [02:37<01:34,  1.98frame/s, execution_providers=['cuda']]\nprocessing:  58%|=====     | 262/449 [02:37<01:12,  2.59frame/s, execution_providers=['cuda']]\nprocessing:  58%|=====     | 262/449 [02:37<0\n```",
+      "source": "notify",
+      "direction": "outgoing"
+    }
+  ],
+  "progress_history": [
+    {
+      "ts": 1779126739.4155014,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [2/6] Extracting Frames\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Extracting Frames\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/448\n\n⏱️ Elapsed: 0m 0s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126749.1303856,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [2/6] Extracting Frames\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Extracting Frames\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/?\n\n⏱️ Elapsed: 0m 17s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126749.9945118,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [2/6] Extracting Frames\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Extracting Frames\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/448\n\n⏱️ Elapsed: 0m 1s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126752.02612,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [2/6] Extracting Frames\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Extracting Frames\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/448\n\n⏱️ Elapsed: 0m 2s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126753.4786813,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [2/6] Extracting Frames\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Extracting Frames\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/448\n\n⏱️ Elapsed: 0m 4s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126754.9232311,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [2/6] Extracting Frames\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Extracting Frames\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/448\n\n⏱️ Elapsed: 0m 6s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126756.341062,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [2/6] Extracting Frames\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Extracting Frames\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/448\n\n⏱️ Elapsed: 0m 7s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126757.8597653,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [2/6] Extracting Frames\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Extracting Frames\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/448\n\n⏱️ Elapsed: 0m 8s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126759.3128984,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [2/6] Extracting Frames\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Extracting Frames\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/448\n\n⏱️ Elapsed: 0m 10s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126760.7383058,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [2/6] Extracting Frames\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Extracting Frames\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/448\n\n⏱️ Elapsed: 0m 11s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126762.1651573,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [2/6] Extracting Frames\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Extracting Frames\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/448\n\n⏱️ Elapsed: 0m 13s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126763.6485698,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [2/6] Extracting Frames\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Extracting Frames\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/448\n\n⏱️ Elapsed: 0m 14s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126765.205046,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [2/6] Extracting Frames\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Extracting Frames\n\n███░░░░░░░ 34%\n\n🎞 Frames: 156/448\n\n⏱️ Elapsed: 0m 16s\n\n⌛️ ETA: 0m 31s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126766.622778,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/449\n\n⏱️ Elapsed: 0m 17s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126768.3719091,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/449\n\n⏱️ Elapsed: 0m 19s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126769.8231652,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/449\n\n⏱️ Elapsed: 0m 20s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126771.3291388,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/449\n\n⏱️ Elapsed: 0m 22s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126772.7628846,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/449\n\n⏱️ Elapsed: 0m 23s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126774.1977592,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/449\n\n⏱️ Elapsed: 0m 25s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126775.6282997,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/449\n\n⏱️ Elapsed: 0m 26s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126777.0287912,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/449\n\n⏱️ Elapsed: 0m 28s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126778.4353013,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/449\n\n⏱️ Elapsed: 0m 29s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126779.827464,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/449\n\n⏱️ Elapsed: 0m 30s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126781.2418964,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/449\n\n⏱️ Elapsed: 0m 32s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126782.6581511,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/449\n\n⏱️ Elapsed: 0m 33s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126784.0607953,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/449\n\n⏱️ Elapsed: 0m 35s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126785.6855383,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/449\n\n⏱️ Elapsed: 0m 36s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126787.0972166,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/449\n\n⏱️ Elapsed: 0m 38s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126788.5897686,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/449\n\n⏱️ Elapsed: 0m 39s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126789.9909682,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/449\n\n⏱️ Elapsed: 0m 41s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126791.5448246,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/449\n\n⏱️ Elapsed: 0m 42s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126792.979851,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/449\n\n⏱️ Elapsed: 0m 44s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126794.5622728,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/449\n\n⏱️ Elapsed: 0m 45s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126795.9684844,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/449\n\n⏱️ Elapsed: 0m 47s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126797.3666363,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/449\n\n⏱️ Elapsed: 0m 48s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126798.7752976,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/449\n\n⏱️ Elapsed: 0m 49s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126800.381078,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/449\n\n⏱️ Elapsed: 0m 51s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126801.9726286,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/449\n\n⏱️ Elapsed: 0m 52s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126803.4394572,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/449\n\n⏱️ Elapsed: 0m 54s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126804.8380365,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 0/449\n\n⏱️ Elapsed: 0m 55s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126806.2552993,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 0%\n\n🎞 Frames: 3/449\n\n⏱️ Elapsed: 0m 57s\n\n⌛️ ETA: 0m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126807.7421567,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 1%\n\n🎞 Frames: 5/449\n\n⏱️ Elapsed: 0m 58s\n\n⌛️ ETA: 1h 35m 42s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126809.160861,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 2%\n\n🎞 Frames: 9/449\n\n⏱️ Elapsed: 1m 0s\n\n⌛️ ETA: 49m 0s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126810.6377301,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 2%\n\n🎞 Frames: 13/449\n\n⏱️ Elapsed: 1m 1s\n\n⌛️ ETA: 49m 49s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126812.0877223,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 3%\n\n🎞 Frames: 15/449\n\n⏱️ Elapsed: 1m 3s\n\n⌛️ ETA: 33m 57s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126813.519055,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 4%\n\n🎞 Frames: 18/449\n\n⏱️ Elapsed: 1m 4s\n\n⌛️ ETA: 25m 36s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126814.9337342,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 4%\n\n🎞 Frames: 22/449\n\n⏱️ Elapsed: 1m 6s\n\n⌛️ ETA: 26m 24s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126816.3511105,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 5%\n\n🎞 Frames: 25/449\n\n⏱️ Elapsed: 1m 7s\n\n⌛️ ETA: 21m 13s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126817.7726927,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 6%\n\n🎞 Frames: 29/449\n\n⏱️ Elapsed: 1m 8s\n\n⌛️ ETA: 17m 45s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126819.280863,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 7%\n\n🎞 Frames: 32/449\n\n⏱️ Elapsed: 1m 10s\n\n⌛️ ETA: 15m 30s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126820.7095387,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 7%\n\n🎞 Frames: 35/449\n\n⏱️ Elapsed: 1m 11s\n\n⌛️ ETA: 15m 43s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126822.1694915,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 8%\n\n🎞 Frames: 39/449\n\n⏱️ Elapsed: 1m 13s\n\n⌛️ ETA: 13m 59s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126823.6000133,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 9%\n\n🎞 Frames: 41/449\n\n⏱️ Elapsed: 1m 14s\n\n⌛️ ETA: 12m 28s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126825.0507832,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n░░░░░░░░░░ 9%\n\n🎞 Frames: 44/449\n\n⏱️ Elapsed: 1m 16s\n\n⌛️ ETA: 12m 48s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126826.4895484,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n█░░░░░░░░░ 10%\n\n🎞 Frames: 47/449\n\n⏱️ Elapsed: 1m 17s\n\n⌛️ ETA: 11m 33s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126827.942836,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n█░░░░░░░░░ 11%\n\n🎞 Frames: 51/449\n\n⏱️ Elapsed: 1m 19s\n\n⌛️ ETA: 10m 39s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126829.4589245,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n█░░░░░░░░░ 12%\n\n🎞 Frames: 54/449\n\n⏱️ Elapsed: 1m 20s\n\n⌛️ ETA: 9m 46s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126830.8883934,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n█░░░░░░░░░ 12%\n\n🎞 Frames: 57/449\n\n⏱️ Elapsed: 1m 22s\n\n⌛️ ETA: 10m 1s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126832.3080254,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n█░░░░░░░░░ 13%\n\n🎞 Frames: 61/449\n\n⏱️ Elapsed: 1m 23s\n\n⌛️ ETA: 9m 15s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126833.7446926,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n█░░░░░░░░░ 14%\n\n🎞 Frames: 63/449\n\n⏱️ Elapsed: 1m 24s\n\n⌛️ ETA: 8m 36s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126835.1552362,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n█░░░░░░░░░ 14%\n\n🎞 Frames: 67/449\n\n⏱️ Elapsed: 1m 26s\n\n⌛️ ETA: 8m 48s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126836.6050985,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n█░░░░░░░░░ 15%\n\n🎞 Frames: 71/449\n\n⏱️ Elapsed: 1m 27s\n\n⌛️ ETA: 8m 13s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126838.022426,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n█░░░░░░░░░ 16%\n\n🎞 Frames: 73/449\n\n⏱️ Elapsed: 1m 29s\n\n⌛️ ETA: 7m 47s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126839.444829,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n█░░░░░░░░░ 17%\n\n🎞 Frames: 77/449\n\n⏱️ Elapsed: 1m 30s\n\n⌛️ ETA: 7m 19s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126840.9367733,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n█░░░░░░░░░ 17%\n\n🎞 Frames: 79/449\n\n⏱️ Elapsed: 1m 32s\n\n⌛️ ETA: 7m 29s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126842.3793797,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n█░░░░░░░░░ 18%\n\n🎞 Frames: 83/449\n\n⏱️ Elapsed: 1m 33s\n\n⌛️ ETA: 7m 3s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126843.799529,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n█░░░░░░░░░ 19%\n\n🎞 Frames: 87/449\n\n⏱️ Elapsed: 1m 34s\n\n⌛️ ETA: 6m 40s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126845.2664,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n█░░░░░░░░░ 19%\n\n🎞 Frames: 89/449\n\n⏱️ Elapsed: 1m 36s\n\n⌛️ ETA: 6m 49s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126846.7490194,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n██░░░░░░░░ 20%\n\n🎞 Frames: 93/449\n\n⏱️ Elapsed: 1m 37s\n\n⌛️ ETA: 6m 28s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126848.2132785,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n██░░░░░░░░ 21%\n\n🎞 Frames: 97/449\n\n⏱️ Elapsed: 1m 39s\n\n⌛️ ETA: 6m 12s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126849.6155705,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n██░░░░░░░░ 22%\n\n🎞 Frames: 99/449\n\n⏱️ Elapsed: 1m 40s\n\n⌛️ ETA: 5m 54s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126851.045947,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n██░░░░░░░░ 22%\n\n🎞 Frames: 103/449\n\n⏱️ Elapsed: 1m 42s\n\n⌛️ ETA: 6m 1s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126852.4960046,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n██░░░░░░░░ 23%\n\n🎞 Frames: 106/449\n\n⏱️ Elapsed: 1m 43s\n\n⌛️ ETA: 5m 44s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126853.930884,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n██░░░░░░░░ 24%\n\n🎞 Frames: 109/449\n\n⏱️ Elapsed: 1m 45s\n\n⌛️ ETA: 5m 32s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126855.5715585,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n██░░░░░░░░ 25%\n\n🎞 Frames: 113/449\n\n⏱️ Elapsed: 1m 46s\n\n⌛️ ETA: 5m 18s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126857.1392472,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n██░░░░░░░░ 25%\n\n🎞 Frames: 115/449\n\n⏱️ Elapsed: 1m 48s\n\n⌛️ ETA: 5m 24s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126858.7028785,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n██░░░░░░░░ 26%\n\n🎞 Frames: 118/449\n\n⏱️ Elapsed: 1m 49s\n\n⌛️ ETA: 5m 10s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126860.3535895,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n██░░░░░░░░ 26%\n\n🎞 Frames: 120/449\n\n⏱️ Elapsed: 1m 51s\n\n⌛️ ETA: 5m 15s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126861.8436184,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n██░░░░░░░░ 27%\n\n🎞 Frames: 123/449\n\n⏱️ Elapsed: 1m 52s\n\n⌛️ ETA: 5m 2s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126863.2669573,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n██░░░░░░░░ 28%\n\n🎞 Frames: 127/449\n\n⏱️ Elapsed: 1m 54s\n\n⌛️ ETA: 4m 53s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126864.732674,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n██░░░░░░░░ 29%\n\n🎞 Frames: 131/449\n\n⏱️ Elapsed: 1m 55s\n\n⌛️ ETA: 4m 41s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126866.191655,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n██░░░░░░░░ 29%\n\n🎞 Frames: 133/449\n\n⏱️ Elapsed: 1m 57s\n\n⌛️ ETA: 4m 46s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126867.6159134,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n███░░░░░░░ 30%\n\n🎞 Frames: 137/449\n\n⏱️ Elapsed: 1m 58s\n\n⌛️ ETA: 4m 35s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126869.1656237,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n███░░░░░░░ 30%\n\n🎞 Frames: 139/449\n\n⏱️ Elapsed: 2m 0s\n\n⌛️ ETA: 4m 40s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126870.6045454,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n███░░░░░░░ 31%\n\n🎞 Frames: 143/449\n\n⏱️ Elapsed: 2m 1s\n\n⌛️ ETA: 4m 29s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126872.0836983,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n███░░░░░░░ 32%\n\n🎞 Frames: 147/449\n\n⏱️ Elapsed: 2m 3s\n\n⌛️ ETA: 4m 21s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126873.5632393,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n███░░░░░░░ 33%\n\n🎞 Frames: 149/449\n\n⏱️ Elapsed: 2m 4s\n\n⌛️ ETA: 4m 11s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126874.9961443,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n███░░░░░░░ 34%\n\n🎞 Frames: 153/449\n\n⏱️ Elapsed: 2m 6s\n\n⌛️ ETA: 4m 4s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126876.497816,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n███░░░░░░░ 34%\n\n🎞 Frames: 156/449\n\n⏱️ Elapsed: 2m 7s\n\n⌛️ ETA: 4m 6s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126878.016941,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n███░░░░░░░ 35%\n\n🎞 Frames: 159/449\n\n⏱️ Elapsed: 2m 9s\n\n⌛️ ETA: 3m 59s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126879.467024,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n███░░░░░░░ 36%\n\n🎞 Frames: 163/449\n\n⏱️ Elapsed: 2m 10s\n\n⌛️ ETA: 3m 51s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126880.8786747,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n███░░░░░░░ 37%\n\n🎞 Frames: 167/449\n\n⏱️ Elapsed: 2m 12s\n\n⌛️ ETA: 3m 44s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126882.3243809,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n███░░░░░░░ 37%\n\n🎞 Frames: 169/449\n\n⏱️ Elapsed: 2m 13s\n\n⌛️ ETA: 3m 46s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126883.7501314,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n███░░░░░░░ 38%\n\n🎞 Frames: 173/449\n\n⏱️ Elapsed: 2m 14s\n\n⌛️ ETA: 3m 38s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126885.225629,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n███░░░░░░░ 39%\n\n🎞 Frames: 176/449\n\n⏱️ Elapsed: 2m 16s\n\n⌛️ ETA: 3m 32s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126886.6722858,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n███░░░░░░░ 39%\n\n🎞 Frames: 179/449\n\n⏱️ Elapsed: 2m 17s\n\n⌛️ ETA: 3m 34s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126888.1096437,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n████░░░░░░ 40%\n\n🎞 Frames: 183/449\n\n⏱️ Elapsed: 2m 19s\n\n⌛️ ETA: 3m 28s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126889.5924747,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n████░░░░░░ 41%\n\n🎞 Frames: 185/449\n\n⏱️ Elapsed: 2m 20s\n\n⌛️ ETA: 3m 21s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126891.0183926,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n████░░░░░░ 42%\n\n🎞 Frames: 189/449\n\n⏱️ Elapsed: 2m 22s\n\n⌛️ ETA: 3m 16s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126892.45711,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n████░░░░░░ 42%\n\n🎞 Frames: 193/449\n\n⏱️ Elapsed: 2m 23s\n\n⌛️ ETA: 3m 17s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126893.9553952,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n████░░░░░░ 43%\n\n🎞 Frames: 195/449\n\n⏱️ Elapsed: 2m 25s\n\n⌛️ ETA: 3m 12s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126895.3835564,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n████░░░░░░ 44%\n\n🎞 Frames: 199/449\n\n⏱️ Elapsed: 2m 26s\n\n⌛️ ETA: 3m 5s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126896.7946239,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n████░░░░░░ 45%\n\n🎞 Frames: 203/449\n\n⏱️ Elapsed: 2m 27s\n\n⌛️ ETA: 2m 59s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126898.2117858,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n████░░░░░░ 45%\n\n🎞 Frames: 205/449\n\n⏱️ Elapsed: 2m 29s\n\n⌛️ ETA: 3m 2s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126899.6169848,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n████░░░░░░ 46%\n\n🎞 Frames: 209/449\n\n⏱️ Elapsed: 2m 30s\n\n⌛️ ETA: 2m 56s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126901.1670544,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n████░░░░░░ 47%\n\n🎞 Frames: 212/449\n\n⏱️ Elapsed: 2m 32s\n\n⌛️ ETA: 2m 51s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126902.6649363,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n████░░░░░░ 47%\n\n🎞 Frames: 215/449\n\n⏱️ Elapsed: 2m 33s\n\n⌛️ ETA: 2m 52s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126904.0980134,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n████░░░░░░ 48%\n\n🎞 Frames: 219/449\n\n⏱️ Elapsed: 2m 35s\n\n⌛️ ETA: 2m 47s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126905.5908518,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n████░░░░░░ 49%\n\n🎞 Frames: 222/449\n\n⏱️ Elapsed: 2m 36s\n\n⌛️ ETA: 2m 42s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126907.0630522,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n█████░░░░░ 50%\n\n🎞 Frames: 225/449\n\n⏱️ Elapsed: 2m 38s\n\n⌛️ ETA: 2m 38s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126908.502101,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n█████░░░░░ 50%\n\n🎞 Frames: 228/449\n\n⏱️ Elapsed: 2m 39s\n\n⌛️ ETA: 2m 39s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126910.0158062,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n█████░░░░░ 51%\n\n🎞 Frames: 231/449\n\n⏱️ Elapsed: 2m 41s\n\n⌛️ ETA: 2m 34s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126911.5083442,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n█████░░░░░ 52%\n\n🎞 Frames: 235/449\n\n⏱️ Elapsed: 2m 42s\n\n⌛️ ETA: 2m 29s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126912.953172,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n█████░░░░░ 53%\n\n🎞 Frames: 239/449\n\n⏱️ Elapsed: 2m 44s\n\n⌛️ ETA: 2m 25s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126914.4868357,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n█████░░░░░ 53%\n\n🎞 Frames: 241/449\n\n⏱️ Elapsed: 2m 45s\n\n⌛️ ETA: 2m 26s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126916.0957887,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n█████░░░░░ 54%\n\n🎞 Frames: 245/449\n\n⏱️ Elapsed: 2m 47s\n\n⌛️ ETA: 2m 22s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126917.5302682,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n█████░░░░░ 55%\n\n🎞 Frames: 249/449\n\n⏱️ Elapsed: 2m 48s\n\n⌛️ ETA: 2m 17s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126919.0924938,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n█████░░░░░ 56%\n\n🎞 Frames: 252/449\n\n⏱️ Elapsed: 2m 50s\n\n⌛️ ETA: 2m 13s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126920.4994626,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n█████░░░░░ 56%\n\n🎞 Frames: 255/449\n\n⏱️ Elapsed: 2m 51s\n\n⌛️ ETA: 2m 14s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    },
+    {
+      "ts": 1779126921.9233248,
+      "text": "━━━━━━━━━━━━━━━━━━━━━\n🔄 [3/6] Face Swap Processing\n━━━━━━━━━━━━━━━━━━━━━\n\n🧩 Stage: Face Swap Processing\n\n█████░░░░░ 57%\n\n🎞 Frames: 259/449\n\n⏱️ Elapsed: 2m 53s\n\n⌛️ ETA: 2m 10s\n\nℹ️ Female-only: ON | Fast-mode: ON | File: 3278172064293_031612_1779126737.mp4"
+    }
+  ],
+  "completed": false,
+  "success": null,
+  "result": {}
+}

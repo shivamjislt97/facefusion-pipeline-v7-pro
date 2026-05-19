@@ -1,0 +1,12 @@
+[
+  "tests/test_runtime_regression.py::TestBotRegression::test_bot_credentials_are_masked",
+  "tests/test_runtime_regression.py::TestBotRegression::test_bot_imports_fast",
+  "tests/test_runtime_regression.py::TestBotRegression::test_bot_missing_credentials_reported",
+  "tests/test_runtime_regression.py::TestHealthRegression::test_health_check_main_passes_and_emits_json",
+  "tests/test_runtime_regression.py::TestHealthRegression::test_lightning_import_available",
+  "tests/test_runtime_regression.py::TestHealthRegression::test_verify_health_integration",
+  "tests/test_runtime_regression.py::TestPipelineRegression::test_pipeline_directories_are_writable",
+  "tests/test_runtime_regression.py::TestPipelineRegression::test_pipeline_idempotency_key_is_stable",
+  "tests/test_runtime_regression.py::TestPipelineRegression::test_pipeline_media_validation_rejects_missing_file",
+  "tests/test_runtime_regression.py::TestPipelineRegression::test_pipeline_state_store_round_trip"
+]
