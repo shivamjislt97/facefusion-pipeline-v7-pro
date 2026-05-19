@@ -22,3 +22,6 @@ rclone.conf
 hardening_audit.json
 FINAL_READY_REPORT.*
 *.log
+bin/rclone
+pipeline/.drive_token
+pipeline/.mega_*
