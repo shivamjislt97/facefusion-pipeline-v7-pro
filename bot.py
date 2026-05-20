@@ -7194,41 +7194,32 @@ def gdrive_upload(local_path):
 
 
 def smart_upload(local_path):
-    """MEGA first, GDrive fallback. Returns (success, platform, info)"""
+    """GDrive primary, MEGA fallback. Returns (success, platform, info)"""
     reload_runtime_credentials()
 
+    ok, link, gdrive_info = gdrive_upload(local_path)
+    if ok:
+        logger.info("[UPLOAD] gdrive=SUCCESS")
+        if gdrive_info:
+            logger.warning("GDrive upload succeeded but link generation issue: %s", gdrive_info)
+        return True, "GDRIVE", link
+    logger.warning("[UPLOAD] gdrive=FAILED reason=%s — trying MEGA fallback", gdrive_info)
+
     if not can_use_mega():
-        logger.warning("MEGA credentials missing. MEGA upload disabled for this run; using Google Drive fallback.")
-        ok, link, gdrive_info = gdrive_upload(local_path)
-        if ok:
-            logger.info("[UPLOAD_FALLBACK] mega=FAILED gdrive=SUCCESS reason=mega_credentials_missing")
-            if gdrive_info:
-                logger.warning("GDrive upload succeeded but link generation issue: %s", gdrive_info)
-            return True, "Google Drive", link
-        logger.error("[UPLOAD_FALLBACK] mega=FAILED gdrive=FAILED reason=mega_credentials_missing")
-        logger.warning("GDrive fallback fail: %s", gdrive_info)
-        return False, "gdrive", f"MEGA disabled (credentials missing). GDrive: {gdrive_info}"
+        logger.error("[UPLOAD] gdrive=FAILED mega=SKIPPED reason=mega_credentials_missing")
+        return False, "gdrive", f"GDrive: {gdrive_info} | MEGA disabled (credentials missing)"
 
     mega_ok, mega_info = mega_upload(local_path)
     if mega_ok:
-        logger.info("[UPLOAD_FALLBACK] mega=SUCCESS")
+        logger.info("[UPLOAD] gdrive=FAILED mega=SUCCESS")
         remote_path = f"/Root/faceswap/{os.path.basename(local_path)}"
         link_ok, link_info = mega_export_link(remote_path)
         if link_ok:
             return True, "MEGA", link_info
         logger.warning("MEGA uploaded but link export failed: %s", link_info)
         return True, "MEGA", remote_path
-    logger.warning("MEGA upload fail: %s", mega_info)
-    logger.warning("Trying GDrive fallback...")
-    ok, link, gdrive_info = gdrive_upload(local_path)
-    if ok:
-        logger.info("[UPLOAD_FALLBACK] mega=FAILED gdrive=SUCCESS reason=%s", str(mega_info)[:180])
-        if gdrive_info:
-            logger.warning("GDrive upload succeeded but link generation issue: %s", gdrive_info)
-        return True, "Google Drive", link
-    logger.error("[UPLOAD_FALLBACK] mega=FAILED gdrive=FAILED reason=%s", str(mega_info)[:180])
-    logger.warning("GDrive fallback fail: %s", gdrive_info)
-    return False, "both", f"MEGA: {mega_info}\nGDrive: {gdrive_info}"
+    logger.error("[UPLOAD] gdrive=FAILED mega=FAILED gdrive_reason=%s mega_reason=%s", gdrive_info, mega_info)
+    return False, "both", f"GDrive: {gdrive_info}\nMEGA: {mega_info}"
 
 
 async def wait_and_send_mega_link(bot, chat_id, remote_path, retries=8, delay_seconds=10):
@@ -9213,8 +9204,8 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await query.message.reply_text(
             "📤 *Choose Upload Destination*",
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton("☁️ Mega", callback_data="reupload_output_mega")],
-                [InlineKeyboardButton("📁 Google Drive", callback_data="reupload_output_gdrive")],
+                [InlineKeyboardButton("📁 GDrive ✅ Recommended", callback_data="reupload_output_gdrive")],
+                [InlineKeyboardButton("☁️ Mega ⚠️ May fail on this server", callback_data="reupload_output_mega")],
                 [InlineKeyboardButton("⬅️ Back", callback_data="reupload_output_menu")],
             ]),
             parse_mode="Markdown",
@@ -9227,10 +9218,10 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
             "Legacy menu has been merged into this flow.",
             reply_markup=InlineKeyboardMarkup([
                 [
-                    InlineKeyboardButton("☁️ Mega", callback_data="reupload_output_mega"),
+                    InlineKeyboardButton("📁 GDrive ✅ Recommended", callback_data="reupload_output_gdrive"),
                 ],
                 [
-                    InlineKeyboardButton("📁 Google Drive", callback_data="reupload_output_gdrive"),
+                    InlineKeyboardButton("☁️ Mega ⚠️ May fail on this server", callback_data="reupload_output_mega"),
                 ],
                 [InlineKeyboardButton("⬅️ Back", callback_data="reupload_output_menu")],
             ]),
@@ -9313,6 +9304,19 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
                     with suppress(asyncio.CancelledError):
                         await progress_task
                 if not mega_ok:
+                    if "EBLOCKED" in str(mega_info) or "509" in str(mega_info):
+                        await status_msg.edit_text(
+                            "⚠️ Mega Upload Blocked\n\n"
+                            "This server's IP is blocked by Mega.\n"
+                            "Please use GDrive instead or create a new\n"
+                            "Mega account from a home network and update\n"
+                            "MEGA_EMAIL and MEGA_PASSWORD in .env",
+                            reply_markup=InlineKeyboardMarkup([
+                                [InlineKeyboardButton("📁 GDrive ✅ Recommended", callback_data="reupload_output_gdrive")],
+                                [InlineKeyboardButton("🏠 Home", callback_data="back_main")],
+                            ]),
+                        )
+                        return
                     await status_msg.edit_text(
                         f"❌ MEGA Upload Failed\n\n`{mega_info[:200]}`",
                         parse_mode="Markdown",
@@ -9432,8 +9436,10 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 "Choose upload mode:",
                 reply_markup=InlineKeyboardMarkup([
                     [
-                        InlineKeyboardButton("📦 Mega Upload", callback_data=f"reupload_pick_mega_{idx}"),
-                        InlineKeyboardButton("☁️ Google Drive Upload", callback_data=f"reupload_pick_gdrive_{idx}"),
+                        InlineKeyboardButton("📁 GDrive ✅ Recommended", callback_data=f"reupload_pick_gdrive_{idx}"),
+                    ],
+                    [
+                        InlineKeyboardButton("☁️ Mega ⚠️ May fail on this server", callback_data=f"reupload_pick_mega_{idx}"),
                     ],
                     [InlineKeyboardButton("⬅️ Back", callback_data="reupload_output_menu")],
                 ]),
@@ -9506,6 +9512,19 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 mega_ok, mega_info = await asyncio.to_thread(mega_upload, str(f))
                 logger.info("[REUPLOAD_DEBUG] mega_upload result: ok=%s info=%s", mega_ok, mega_info[:120] if mega_info else '')
                 if not mega_ok:
+                    if "EBLOCKED" in str(mega_info) or "509" in str(mega_info):
+                        await query.message.reply_text(
+                            "⚠️ Mega Upload Blocked\n\n"
+                            "This server's IP is blocked by Mega.\n"
+                            "Please use GDrive instead or create a new\n"
+                            "Mega account from a home network and update\n"
+                            "MEGA_EMAIL and MEGA_PASSWORD in .env",
+                            reply_markup=InlineKeyboardMarkup([
+                                [InlineKeyboardButton("📁 GDrive ✅ Recommended", callback_data=f"reupload_pick_gdrive_{idx}")],
+                                [InlineKeyboardButton("🏠 Home", callback_data="back_main")],
+                            ]),
+                        )
+                        return
                     if is_mega_auth_error(mega_info):
                         logger.warning("MEGA auth error on reupload — falling back to GDrive: %s", mega_info)
                         ok, link, ginfo = await asyncio.to_thread(gdrive_upload, str(f))
@@ -13149,7 +13168,7 @@ async def run_pipeline(context, chat_id, video_link, face_link=None, job_mode="d
                     pct=pct,
                     elapsed=elapsed,
                     eta_seconds=eta,
-                    extra=f"size: {upload_mb:.1f} MB | target: MEGA then Google Drive fallback",
+                    extra=f"size: {upload_mb:.1f} MB | target: GDrive (primary) then MEGA fallback",
                 )
                 _perf_sample("upload")
                 await asyncio.sleep(1)
@@ -13239,7 +13258,7 @@ async def run_pipeline(context, chat_id, video_link, face_link=None, job_mode="d
             if faceswap_forced_passthrough[0]:
                 await notify("🔗 Output ready", main_kb())
 
-            if platform == "Google Drive":
+            if platform in ("GDRIVE", "Google Drive"):
                 link_line = f"\n🔗 [Google Drive Link]({upload_link})"
             elif platform == "MEGA":
                 link_line = f"\n🔗 [MEGA Link]({upload_link})"
